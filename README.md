@@ -49,7 +49,7 @@ Aurora SaaS is a fast-growing, cloud-native SaaS platform running fully on **Goo
 | Incident Type          | Priority | Rationale                                                                 |
 |------------------------|----------|---------------------------------------------------------------------------|
 | Data Breach            | High     | Risk to customer trust, compliance, and business continuity               |
-| Cloud Misconfiguration | Medium   | Common in cloud-native environments, can escalate                         |
+| Cloud Misconfiguration | Medium   | High potential to compromise infrastructure or lead to critical service disruption (e.g., DoS)                        |
 | DoS Attack             | High     | Critical availability loss                                                |
 | Unauthorized Access    | Medium   | Requires privilege assessment, potential lateral movement                 |
 | Malware                | Medium   | Often initial access vector, may evolve                                   |
